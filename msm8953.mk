@@ -68,10 +68,6 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
-# Dex
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
@@ -119,6 +115,11 @@ PRODUCT_PACKAGES += \
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
+
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    NexusLauncherRelease
 
 # Display
 PRODUCT_PACKAGES += \
