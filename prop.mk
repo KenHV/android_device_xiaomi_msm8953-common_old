@@ -208,12 +208,12 @@ persist.dbg.ims_volte_enable=1 \
 persist.data.iwlan=1 \
 persist.data.iwlan.ipsec.ap=1 \
 ril.subscription.types=NV,RUIM \
-rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.iwlan_operation_mode=legacy \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
-service.qti.ims.enabled=1
+service.qti.ims.enabled=1 \
+vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # RCS
 PRODUCT_PROPERTY_OVERRIDES += \
