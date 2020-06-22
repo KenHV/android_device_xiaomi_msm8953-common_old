@@ -208,6 +208,7 @@ persist.dbg.ims_volte_enable=1 \
 persist.data.iwlan=1 \
 persist.data.iwlan.ipsec.ap=1 \
 ril.subscription.types=NV,RUIM \
+rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.iwlan_operation_mode=legacy \
 ro.telephony.call_ring.multiple=false \

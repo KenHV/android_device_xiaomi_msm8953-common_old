@@ -16,8 +16,6 @@
 
 VENDOR_PATH := device/xiaomi/msm8953-common
 
-TARGET_SYSTEM_PROP := $(VENDOR_PATH)/system.prop
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
