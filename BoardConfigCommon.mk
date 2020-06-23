@@ -184,9 +184,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
-# Power
-TARGET_POWER_HAL := true
-
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
 
