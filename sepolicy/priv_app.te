@@ -1,3 +1,0 @@
-typeattribute priv_app data_between_core_and_vendor_violators;
-allow priv_app proc_net:file read;
-allow priv_app firmware_file:filesystem getattr;
