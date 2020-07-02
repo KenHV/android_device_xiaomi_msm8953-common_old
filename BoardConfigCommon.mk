@@ -52,6 +52,7 @@ ifneq ($(TARGET_KERNEL_SOURCE),)
     TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 endif
 TARGET_KERNEL_VERSION := 4.9
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
